@@ -19,4 +19,8 @@ export default {
   background-color: #CFD4DE;
   font-family: Inter;
 }
+
+#app{
+  min-height: 100vh;
+}
 </style>
