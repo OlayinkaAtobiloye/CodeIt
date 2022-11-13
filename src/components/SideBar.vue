@@ -6,6 +6,8 @@
       <li><a href="https://instagram.com">Instagram</a></li>
       <li><a href="https://facebook.com">Facebook</a></li>
       <li><a href="https://youtube.com">YouTube</a></li>
+      <li><a href="mailto:hiqmatolayinka@gmail.com">Email</a></li>
+
       <li>
         <router-link to="/history">History</router-link>
       </li>
@@ -62,5 +64,10 @@ a {
   .sidebar{
     width: 30%;
   }
+}
+h1{
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
 }
 </style>

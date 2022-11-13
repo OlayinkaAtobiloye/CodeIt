@@ -5,16 +5,12 @@
     <div class="download-div">
       <button class="bg-deep-blue download">
         <a v-bind:href="pngLink" download="qrCode.png"
-          ><span class="material-symbols-outlined">
-            download </span
-          >JPG</a
+          ><span class="material-symbols-outlined"> download </span>JPG</a
         >
       </button>
       <button class="bg-yellow download">
         <a v-bind:href="pngLink" download="qrCode.png"
-          ><span class="material-symbols-outlined">
-            download </span
-          >SVG</a
+          ><span class="material-symbols-outlined"> download </span>SVG</a
         >
       </button>
     </div>

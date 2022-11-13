@@ -1,6 +1,10 @@
 <template>
   <div class="code-generator">
-    <span class="material-symbols-outlined hide mobile" v-bind:class="{ show: displayPopUp }" v-on:click="hidePopUp()">
+    <span
+      class="material-symbols-outlined hide mobile"
+      v-bind:class="{ show: displayPopUp }"
+      v-on:click="hidePopUp()"
+    >
       arrow_back_ios
     </span>
     <SideBar v-bind:class="{ hide: displayPopUp }"></SideBar>
@@ -53,8 +57,8 @@ export default {
         );
       }
     },
-    hidePopUp: function(){
-        this.displayPopUp = false;
+    hidePopUp: function() {
+      this.displayPopUp = false;
     }
   }
 };
@@ -73,7 +77,7 @@ input {
   width: 80%;
   border-bottom: 1px solid #021136;
   padding-bottom: 12px;
-  min-height: 100px;
+  min-height: 80px;
   margin-bottom: 60px;
   font-size: 32px;
 }
@@ -84,12 +88,11 @@ input:focus {
 
 input::placeholder {
   font-family: Inter;
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 400;
   line-height: 36px;
   letter-spacing: 0em;
   color: #021136;
-  
 }
 
 .code-generator {
@@ -110,17 +113,17 @@ input::placeholder {
   cursor: pointer;
 }
 .mobile {
-    position: absolute;
-    top: 18px;
-    left: 16px;
-    background: #0a1b45;
-    display: none;
-    color: #ffffff;
+  position: absolute;
+  top: 18px;
+  left: 16px;
+  background: #0a1b45;
+  display: none;
+  color: #ffffff;
 }
 
 @media (max-width: 768px) {
   .input-div {
-    width: 60%;
+    width: 70%;
   }
   #qr-code {
     display: none;
@@ -130,6 +133,13 @@ input::placeholder {
   }
   .show {
     display: flex !important;
+  }
+  input::placeholder {
+    font-size: 16px;
+  }
+  input {
+    font-size: 16px;
+    min-height: 50px;
   }
 }
 </style>
