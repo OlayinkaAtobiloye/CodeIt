@@ -3,7 +3,7 @@
       <SideBar/>
       <div v-bind:style="{'width': '70%'}">
         <h2>Generated</h2>
-        <GeneratedCode v-for="code of codes" image=code.image url=code.url></GeneratedCode>
+        <GeneratedCode v-for="code of codes" :key="code.url" :image="code.image" :url="code.url"></GeneratedCode>
       </div>
     </div>
   </template>
@@ -22,6 +22,9 @@
             codes: [{image: "hgfregtyhuik", url: "bgdfsghjuik"}]
         }
        
+    },
+    mounted(){
+      console.log('history mounted')
     }
   }
   </script>

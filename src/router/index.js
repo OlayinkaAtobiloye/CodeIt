@@ -17,5 +17,6 @@ export default new Router({
       name: 'CodeGenerator',
       component: CodeGenerator
     }
-  ]
+  ],
+  mode: 'history'
 })
