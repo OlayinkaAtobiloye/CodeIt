@@ -62,7 +62,6 @@ export default {
 
 <style>
 .input-div {
-  padding-top: 60px;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -90,6 +89,7 @@ input::placeholder {
   line-height: 36px;
   letter-spacing: 0em;
   color: #021136;
+  
 }
 
 .code-generator {
@@ -115,11 +115,12 @@ input::placeholder {
     left: 16px;
     background: #0a1b45;
     display: none;
+    color: #ffffff;
 }
 
 @media (max-width: 768px) {
   .input-div {
-    width: 80%;
+    width: 60%;
   }
   #qr-code {
     display: none;

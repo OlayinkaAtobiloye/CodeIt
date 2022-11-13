@@ -2,7 +2,7 @@
   <nav class="sidebar">
     <h1>C<span class="text-yellow">O</span>DEiT</h1>
     <ul>
-      <li><a href="https://codeit.netlify.app">Website</a></li>
+      <li><a href="https://codeitapp.netlify.app">Website</a></li>
       <li><a href="https://instagram.com">Instagram</a></li>
       <li><a href="https://facebook.com">Facebook</a></li>
       <li><a href="https://youtube.com">YouTube</a></li>
@@ -29,14 +29,15 @@ a {
   color: inherit;
 }
 .sidebar {
-  width: 30%;
+  width: 20%;
   border-right: 1px solid #021136;
   color: #000000;
   flex-direction: column;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   padding-top: 60px;
   min-height: 100vh;
+  padding-left: 5%;
 }
 .sidebar ul li {
   margin-bottom: 12px;
@@ -57,6 +58,9 @@ a {
 @media (max-width: 768px) {
   .qr-code-div {
     width: 100% !important;
+  }
+  .sidebar{
+    width: 30%;
   }
 }
 </style>
