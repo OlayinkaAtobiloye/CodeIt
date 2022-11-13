@@ -23,7 +23,7 @@ export default{
         url: "",
         displayPopUp: false,
         pngLink: "https://qrtag.net/api/qr.png/",
-        svgLink: "https://qrtag.net/api/qr.svg/",
+        svgLink: "https://www.qrtag.net/api/qr_transparent_6.svg/",
     }
     },
     methods:{
