@@ -1,8 +1,8 @@
-# codeit
+# CodeIt
 
-> A Vue.js project
+> CodeIt is a web app lets you generate QR codes for your urls with ease.
 
-## Build Setup
+## Running The Application
 
 ``` bash
 # install dependencies
